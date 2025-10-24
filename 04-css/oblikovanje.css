@@ -46,12 +46,11 @@ h2{
     background-color: rgb(51, 0, 102, 0.1) ;
 }
 
-div{
+/* div{
    /* border-color: red;
     border-style: solid;*/
-     border: red solid;
-    
-}
+    /* border: red solid. } */
+
 
 .slika{
     font-size: 0.9em;
@@ -64,4 +63,14 @@ div{
 .slika img{
     width: 100%;
     height: auto;
+    border-radius: 50%;
+}
+
+.slika p:last-child{
+    font-size: 0.8em;
+    margin-top: -1em;
+    /* background-color: #cc0000; */
+}
+a::before {
+  content: "🔗";
 }
